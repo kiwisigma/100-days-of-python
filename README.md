@@ -6,9 +6,9 @@
 
 ## 📊 Progress
 
-![Progress](https://img.shields.io/badge/Progress-100%2F100%20Days-brightgreen?style=for-the-badge&logo=python&logoColor=white)
+![Progress](https://img.shields.io/badge/Progress-7%2F100%20Days-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Language](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
 
 ---
 
@@ -76,4 +76,4 @@ Each day folder is self-contained — no shared dependencies unless noted.
 
 ---
 
-*Built with Python 3.13 · Pushed via Stream Deck button 🎛️*
+*Built with Python 3.13*
