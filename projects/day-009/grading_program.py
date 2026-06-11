@@ -11,12 +11,13 @@ student_grades = {}
 
 for student, score in student_scores.items():
     if score >= 91:
-        print(f"Outstanding")
+        grade = "Outstanding"
     elif score >= 80:
-        print(f"Exceeds Expectations")
+        grade = "Exceeds Expectations"
     elif score >= 71:
-        print(f"Acceptable")
+        grade = "Acceptable"
     else:
-        print(f"Fail")
+        grade = "Fail"
 
-student_grades[student] = grade
+    student_grades[student] = grade
+print(student_grades)
