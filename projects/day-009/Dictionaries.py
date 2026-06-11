@@ -8,7 +8,7 @@ print(programming_dictionary["Bug"])
 programming_dictionary["Loop"] = "The action of doing something over and over again."
 print(programming_dictionary)
 
-empty_dictonary = {}
+empty_dictionary = {}
 
 # # wiping a dictionary
 # programming_dictionary = {}
