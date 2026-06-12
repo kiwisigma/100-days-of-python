@@ -1,7 +1,8 @@
-name = str(input())
 
-def format_name(name):
-    uppercase_name = name.upper()
-    return uppercase_name
+def format_name(f_name, l_name):
+    formated_f_name = f_name.title()
+    formated_l_name = l_name.title()
+    return f"{formated_f_name} {formated_l_name}"
 
-print(format_name())
+formated_string = format_name("angela", "YU")
+print(formated_string)
