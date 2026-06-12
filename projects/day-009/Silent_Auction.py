@@ -1,4 +1,5 @@
 import art
+print("Welcome to the Silent Auction Program!")
 print(art.logo)
 name = input("What is your name?: ")
 price = int(input("What is your bid?: $"))
