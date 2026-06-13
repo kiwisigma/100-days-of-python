@@ -9,6 +9,6 @@ def get_time_of_day():
         return "evening"
 
 def full_greeting(name, time_of_day):
-    print(f"Hello {name}!\n It is {time_of_day}")
+    print(f"Hello {name}!\nIt is {time_of_day}")
 
 full_greeting("Angela", get_time_of_day())
