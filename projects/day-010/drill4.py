@@ -3,7 +3,7 @@ def grade(score):
         return "Pass"
     else:
         return "Fail"
-    
+
 print(grade(75))
 print(grade(50))
 print(grade(30))
