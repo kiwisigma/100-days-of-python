@@ -7,4 +7,4 @@ def grade(score):
 print(grade(75))
 print(grade(50))
 print(grade(30))
-
+print(grade(12))

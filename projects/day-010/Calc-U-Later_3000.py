@@ -46,6 +46,5 @@ def calculator():
             print("\n" * 20)
             calculator()
 
-
 calculator()
 
