@@ -1,11 +1,13 @@
+# Modifying Global Scope
+
 enemies = 1
 
 def increase_enemies():
-    enemies = 2
+    global enemies
+    enemies += 1
     print(f"enemies inside function: {enemies}")
 
-increase_enemies()
-print(f"enemies outside function: {enemies}")
+increase_enemies()print(f"enemies outside function: {enemies}")
 
 #
 # #local scope
@@ -24,6 +26,6 @@ def game():
         print(player_health)
 
     drink_potion()
-    
+
 print(player_health)
 
