@@ -5,7 +5,7 @@ print(logo)
 
 def deal_card():
     """returns a random card from the deck"""
-    cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+    cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10,]
     return random.choice(cards)
 
 def calculate_score(cards):
@@ -71,4 +71,5 @@ def play_game():
 
 while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
     print("\n" *20)
+    
     play_game()
