@@ -7,4 +7,4 @@ def get_color():
     else:
         return "cool"
 
-print(get_color())
+print(get_color()) 
