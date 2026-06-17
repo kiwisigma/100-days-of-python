@@ -2,12 +2,14 @@
 
 enemies = 1
 
-def increase_enemies():
-    global enemies
-    enemies += 1
+def increase_enemies(enemy):
     print(f"enemies inside function: {enemies}")
+    return enemy + 1
 
-increase_enemies()print(f"enemies outside function: {enemies}")
+enemies = increase_enemies(enemies)
+
+increase_enemies()
+print(f"enemies outside function: {enemies}")
 
 #
 # #local scope
