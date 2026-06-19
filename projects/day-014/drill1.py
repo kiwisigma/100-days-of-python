@@ -4,5 +4,9 @@
 Then print the result by calling the function outside of it."""
 
 price = 10
+
 def add_tax(price):
-    
+    tax = price * 1.1
+    return tax
+
+print(add_tax(price))
