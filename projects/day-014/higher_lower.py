@@ -43,14 +43,31 @@ data = [
 def format_person(person):
     return f"{person['name']}, a {person['description']}, from {person['country']}"
 
+points = 0
 option_a = random.choice(data)
-option_b = random.choice(data)
 
-while option_b == option_a:
+while True:     #main game loop
     option_b = random.choice(data)
-
+    while option_b == option_a:     # Inner loop, ensures no duplicate conflicting questions
+            option_b = random.choice(data)
     print(f"Compare A: {format_person(option_a)}")
     print(art.vs)
     print(f"Compare B: {format_person(option_b)}")
+    choice = input(f"Who has more followers? Type 'a' or 'b'\n")
 
-
+    if choice == 'a' and option_a['follower_count'] > option_b['follower_count']:
+        points += 1
+        print(f"correct!")
+        option_a = option_b
+    elif choice == 'b' and option_b['follower_count'] > option_a['follower_count']:
+        points += 1
+        print(f"correct!")
+        option_a = option_b
+    elif choice == 'a' and option_a['follower_count'] < option_b['follower_count']:
+        print(f"incorrect!")
+        print(f"Your final score was:{points}")
+        break
+    elif choice == 'b' and option_b['follower_count'] < option_a['follower_count']:
+        print(f"incorrect!")
+        print(f"Your final score was:{points}")
+        break
