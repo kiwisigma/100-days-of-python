@@ -6,8 +6,8 @@
 
 ## 📊 Progress
 
-![Progress](https://img.shields.io/badge/Progress-14%2F100%20Days-blue?style=for-the-badge&logo=python&logoColor=white)
-![Current Day](https://img.shields.io/badge/Currently%20On-Day%2015-orange?style=for-the-badge&logo=python&logoColor=white)
+![Progress](https://img.shields.io/badge/Progress-15%2F100%20Days-blue?style=for-the-badge&logo=python&logoColor=white)
+![Current Day](https://img.shields.io/badge/Currently%20On-Day%2016-orange?style=for-the-badge&logo=python&logoColor=white)
 ![Language](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
 
