@@ -48,7 +48,7 @@ def process_coins():
     total = 0
     for coin, value in [("quarters", 0.25), ("dimes", 0.10), ("nickels", 0.05), ("pennies", 0.01)]:
         total += int(input(f"How many {coin}?: ")) * value
-        print(f"Total so far: ${total:.2f}")
+        print(f"Total so far: ${total:.2f}")            #:.2f is floating point formating specifier
     return total
 
 def transaction_successful(money_received, drink_cost):
