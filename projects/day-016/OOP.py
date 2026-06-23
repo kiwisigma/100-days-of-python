@@ -16,8 +16,14 @@ print(another_module.another_variable)
 # my_screen.exitonclick()
 
 from prettytable import PrettyTable
+#
+# table = PrettyTable()
+# table.field_names = ["City name", "Area", "Population", "Annual Rainfall"]
+# table.add_row(["Adelaide", 1295, 1158259, 600.5])
+# print(table)
+#
 
-table = PrettyTable()
-table.field_names = ["City name", "Area", "Population", "Annual Rainfall"]
-table.add_row(["Adelaide", 1295, 1158259, 600.5])
-print(table)
+table2 = PrettyTable()
+table2.field_names = ["Pokemon Name", "Type"]
+table2.add_row(["Pikachu", "Electric"])
+print(table2)
