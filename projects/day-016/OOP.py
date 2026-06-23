@@ -24,6 +24,8 @@ from prettytable import PrettyTable
 #
 
 table2 = PrettyTable()
-table2.field_names = ["Pokemon Name", "Type"]
-table2.add_row(["Pikachu", "Electric"])
+table2.add_column("Pokemon Name", ["Pikachu", "squirtle", "Charamander"])
+table2.add_column("Type", ["Electric", "Water", "Fire"])
+
+table2.align = "l"
 print(table2)
